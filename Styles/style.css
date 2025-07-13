@@ -684,9 +684,29 @@ header h1:hover {
 .logout-btn:hover {
   background-color: #b02a37;
 }
+#login-message {
+  margin-top: 12px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+  display: none;
+}
+#login-message.success {
+  color: #155724;
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+  display: block;
+}
+#login-message.error {
+  color: #721c24;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  display: block;
+}
 
 
-    
+
 
 
 
